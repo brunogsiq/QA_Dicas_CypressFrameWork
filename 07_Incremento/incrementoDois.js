@@ -1,3 +1,4 @@
+/*
     var index = 1; 
 
     function leftPad (str, len, ch)
@@ -25,3 +26,4 @@
       };
 
       console.log('Data Programada: ' + fillZeroToLeft(7, 5) )
+*/

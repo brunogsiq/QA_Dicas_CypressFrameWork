@@ -12,4 +12,14 @@
         lt: menos que
         lte: menor ou igual
         within: dentro
+
+    Ex:
+        cy.get("caminho").each(($elemento) => {
+            cy.wrap($elemento)
+            .invoke("text")
+            .then((elementoText) => {
+            expect(elementoText.length).to.equal(18);
+            });
+        });
+
 */
