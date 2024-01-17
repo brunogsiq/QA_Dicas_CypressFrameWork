@@ -1,7 +1,7 @@
 /*
 Para realização de testes utilizando iframes, seré necessário instalar:
     npm install -D cypress-iframe
-    Após, será necessário inserir em cypress/support/commands.js    , inserir:
+    Após, será necessário inserir em cypress/support/commands.js, inserir:
     import 'cypress-iframe'; or require('cypress-iframe');
     Exemplos:
             You can now use the three included commands.
