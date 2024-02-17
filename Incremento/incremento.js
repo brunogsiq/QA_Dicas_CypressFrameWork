@@ -5,6 +5,6 @@
 
     context("Teste de Cadastro - Setup", option, () =>
     {
-        it(`Passo ${++index} - Cadastrar - Combo Novo`") 
+        it(`Passo ${++index} - Cadastrar - Combo Novo`) 
     })
 */
