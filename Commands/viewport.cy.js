@@ -1,5 +1,13 @@
 /// <reference types="cypress" />
 
+/*
+    P/ trabalhar com responsividade:
+
+        cy.viewport(width, height)
+
+        cy.viewport('iphone-x')
+*/
+
 context('Viewport', () => {
   beforeEach(() => {
     cy.visit('https://example.cypress.io/commands/viewport')
